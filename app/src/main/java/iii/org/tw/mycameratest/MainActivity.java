@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void afterPic2() {
         Bitmap bmp = BitmapFactory.decodeFile(sdroot.getAbsolutePath() + "/brad.jpg");
-        Log.d("Abner",sdroot.getAbsolutePath() + "/brad.jpg");
+        Log.d("Abner:",sdroot.getAbsolutePath() + "/brad.jpg");
         imgView.setImageBitmap(bmp);
     }
 
