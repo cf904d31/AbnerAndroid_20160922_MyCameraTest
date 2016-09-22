@@ -7,8 +7,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Take a Picture"
-        android:onClick="takePicture"/>
+        android:text="Take a Picture1"
+        android:onClick="takePicture1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take a Picture2"
+        android:onClick="takePicture2"/>
 
     <ImageView
         android:id="@+id/imgView"
